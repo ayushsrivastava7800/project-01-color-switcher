@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+/* Container for content */
+.container {
+    margin-top: 50px;
+}
+
+/* Buttons */
+.button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Individual Button Colors */
+#gray {
+    background-color: gray;
+}
+
+#white {
+    background-color: black; /* Button visible on white background */
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+    color: black; /* Better contrast */
+}
+
+/* Reset Button */
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reset-button:hover {
+    background-color: darkred;
+}
